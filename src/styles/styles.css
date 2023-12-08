@@ -1,0 +1,25 @@
+@import 'SyneTactile.css';
+
+body {
+  font-family: "SyneTactile";
+}
+
+.container {
+  padding-top: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.logo {
+  background-image: url('../assets/webpack.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
