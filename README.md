@@ -3,7 +3,7 @@
 * ".js" extension (with minification)
 * CSS (with minification)
 * woff|woff2|eot|ttf|otf fonts
-* svg, png
+* svg, png files
 * eslint
 * source-map
 * code splitting
