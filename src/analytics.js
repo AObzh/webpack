@@ -9,9 +9,9 @@ const createAnalytics = () => {
 
   const disable =() => {
       isDisable = true;
-      clicks = 0
-      $(document).off('click', clickHandler)
-  }
+      clicks = 0;
+      $(document).off('click', clickHandler);
+  };
 
   const getClicks = () => !isDisable ? clicks : "Analytics disabled";
 
